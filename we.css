@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+}
+
+.back{
+    background-color: black;
+    /* height: 50px; */
+}
+
+.head-sec{
+    display: flex;
+    color: white;
+    justify-content: space-between; 
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.follow{
+    display: flex; 
+    width: 350px;
+    justify-content: space-between;
+}
+
+.foll-me{
+    display: flex;
+    gap: 20px;
+}
+
+.icones{
+    display: flex;
+    gap: 15px; 
+}
+.icones a{
+    color: white;
+
+}
+.icones a:hover{
+    color: #ffcc05;
+}
+.contact span{
+    gap: 20px;
+    margin-left: 15px;
+    color: white;
+    /* width: 400px; */
+}
+.contact a{
+    color: white;
+}
+.contact i:hover, span:hover{
+    color: #ffcc05;
+}
+
+.log-detail{
+    cursor: pointer;
+}
+
+.navbar-sec{
+    background-image: url(pic/photo-1542291026-7eec264c27ff.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.top-cal{
+
+    padding-top: 10px;
+}
+
+.logoside img{
+    height: 40px;
+    width: 130px;
+}
+.decot-cal{
+    color: white; 
+}
+.capital-cal a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.capital-cal a:hover{
+    color: #ffcc05;
+
+}
+.capital-cal ul{
+    display: flex;
+    gap:27px;
+
+}
+
+.amazon-link{
+    background-color:#ffcc05;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amazon-link a{
+    text-transform: lowercase; 
+    font-size: 20px; 
+    color: #fff;
+
+}
+.amazon-link:hover{
+    background-color: black; 
+    color: white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;  
+    padding: 10px; 
+    margin-left: -40px;
+}
+.chart-list{
+    margin-left: -180px; 
+    padding: 10px; 
+}
+.dropdown-content a {
+      text-transform: capitalize;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: normal; 
+    /* margin: 10px; */
+}
+  
+.dropdown-content a:hover {
+    color: #ffcc05; 
+}
+  
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+  
+.sub-drop{
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        color: white; 
+        padding-right: 20px;
+    }
+    .sub-drop:hover{
+      color: #ffcc05; 
+
+    }
+    .side-drop{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+.slider{
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-top{
+    background-color: #fff;
+    border-bottom: 1px solid rgb(228, 219, 219);  
+    padding-left: 100px;
+    transition-duration: 1s; 
+
+}
+.fixed-top a{
+    color: black;
+
+}
+
+
+.back-2{
+    background-image: url(pic/h1-background-2.jpg);
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.image-boy{
+    position: relative;
+}
+.image-boy img{
+    margin-top: 130px;
+    height: 400px;
+    width: 90%; 
+
+}
+.image-word{
+    position: absolute;
+    bottom: -1px;
+    padding: 50px;
+    color: #fff;
+    z-index: 999; 
+}
+.image-word h1{
+    color: #ffcc05; 
+
+}
+.image-word i{
+    font-size: 27px; 
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    color: #ffcc05;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.second-sec{
+    display: flex; 
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Times New Roman', Times, serif;  
+    width: 80%;
+}
+.second-sec h1{
+    font-weight: 700; 
+    margin-top: 120px;
+
+}
+.second-sec p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.second-sec button{
+    height: 50px;
+    width: 180px;
+    color: white; 
+    background-color: #ffcc05;
+    border: none; 
+    margin-top: 30px; 
+    transition-duration: .5s;
+    letter-spacing: 2px;
+}
+.second-sec button:hover{
+    background-color: black;
+}
+
+
+.review-sec{
+
+    margin-top: 100px;
+}
+.old-man{
+    padding: 0;
+    margin: 0; 
+}
+
+.old-man img{
+    width: 100%;
+}
+.personal-detail{
+    background-image: url(pic/h1-img-3.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white; 
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.personal-detail h1{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.ancient-p{
+    margin-top: 20px;
+}
+.ancient-p h5:hover{
+    color: #ffcc05; 
+    cursor: pointer;
+}
+.icones-female{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #ffcc05;
+    
+}
+
+.female-para{
+    width: 450px; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.name-person{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name-person h6{
+    font-weight: bold;
+}
+
+.female-img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+
+.new-africa{
+    background-image: url(pic/h1-background-2.jpg); 
+    height: 190vh; 
+    font-family: 'Times New Roman', Times, serif;  
+}
+.topic-afroca{
+    text-align: center;
+}
+.topic-afroca h1{
+    margin-top: 120px; 
+    font-weight: bold;
+    font-size: 45px;
+}
+.topic-afroca p{
+    font-size: 20px; 
+    margin-top: 30px; 
+    margin-bottom: 70px;
+}
+.upper-img img{
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.long-img img{
+    width: 100%;
+    height: 104vh;
+}
+.chruch-img img{
+    height:50vh; 
+    /* width: 100%; */
+}
+
+.new-africa button{
+    height: 50px;
+    width: 180px;
+    color: white; 
+    background-color: #ffcc05;
+    border: none; 
+    margin-top: 100px; 
+    transition-duration: .5s;
+    letter-spacing: 2px;
+}
+
+.new-africa button:hover{
+    background-color: black;
+}
+
+
+.footer-section{
+    background-color: black;
+}
+.first-side{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 100px;
+}
+
+.copy-right{
+    border-top: 0.5px solid rgb(230, 217, 217);
+    color: rgb(192, 176, 176);
+    padding: 40px;
+    margin-top: 200px;
+}
+.paragraph{
+    color: rgb(192, 176, 176);
+    margin-top: 30px;
+}
+.logo-phone{
+    display: flex;
+    gap: 20px; 
+    color: rgb(192, 176, 176); 
+    color: #ffcc05; 
+    font-size: 14px;
+}
+.logo-phone h6{
+    color: rgb(192, 176, 176);
+}
+.logo-phone h6:hover{
+    color: #ffcc05;
+    cursor: pointer;
+}
+
+.paragraph-2{
+    margin-top: 40px;
+    text-transform: capitalize;
+    color: rgb(192, 176, 176); 
+}
+.paragraph-2 p:hover{
+    color: #ffcc05;
+    cursor: pointer;
+}
+.paragraph-3{
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: rgb(192, 176, 176); 
+}
+.paragraph-3 p:hover{
+    color: #ffcc05;
+    cursor: pointer;
+}
+.date-result{
+    color: gray;
+    margin-top: -10px; 
+    cursor: pointer;
+}
+.date-result span:hover{
+    color: white;
+}
+
+
+.images-display{
+    margin-top: 40px;
+}
+.images-display img{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.last-icones{
+    display: flex;
+    margin-top: 20px;
+    width: 80%;
+    color: rgb(192, 176, 176); 
+    gap: 20px;
+    align-items: center;
+    justify-content: center; 
+    font-size: 14px;
+}
+.last-icones i:hover{
+    color: #ffcc05;
+    cursor: pointer;
+
+}
+.first-side a{
+    text-decoration: none;
+    color: gray;
+}
+.first-side a:hover{
+    color: #ffcc05;
+
+}
+
+.king-borg{
+    margin-top: 40px;
+}
